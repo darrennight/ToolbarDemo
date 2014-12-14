@@ -27,7 +27,6 @@
             android:onClick="show"
             android:text="change menu item"
             android:textSize="40sp" />
-
         <LinearLayout
             android:id="@+id/drawer_view"
             android:layout_width="300dp"
@@ -36,6 +35,9 @@
             android:background="#88FFFFFF"
             android:orientation="vertical" >
         </LinearLayout>
+        
+        
+        
     </android.support.v4.widget.DrawerLayout>
 
 </RelativeLayout>

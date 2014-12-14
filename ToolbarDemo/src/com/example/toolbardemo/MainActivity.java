@@ -9,6 +9,7 @@
  */
 package com.example.toolbardemo;
 
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
@@ -43,6 +44,7 @@ public class MainActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_main);
 
 		toolbar = (Toolbar) findViewById(R.id.demo_toolbar);
+		toolbar.setBackgroundColor(Color.parseColor("#338800"));
 		setSupportActionBar(toolbar);
 
 		// Set an OnMenuItemClickListener to handle menu item clicks
